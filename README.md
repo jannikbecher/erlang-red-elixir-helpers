@@ -1,4 +1,4 @@
-# Erlang-Red Elixir Helpers
+# Erlang-RED Elixir Helpers
 
 This is the place for adding Elixir code to the project.
 
@@ -7,3 +7,5 @@ Initially this Elixir project only contains [earmark](https://erlangforums.com/t
 It is, as much in life, just a proof of concept and was the first best thing that happened into my mind.
 
 It works well enough and was inspired by this [approach](https://joearms.github.io/published/2017-12-18-Calling-Elixir-From-Erlang.html).
+
+This repository is included in [ErlangRED](https://github.com/gorenje/erlang-red) by using [exerl](https://github.com/filmor/exerl) rebar plugin.
