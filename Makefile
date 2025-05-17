@@ -8,7 +8,7 @@ start-docker-shell: build-docker-container
 	docker run -it -v /mnt/github/erlang-red-elixir-helpers:/code -w /code --rm elixir-shell bash
 
 enter-docker-shell:
-	docker exec -it $$(docker ps -f ancestor=erlang-shell -q) bash
+	docker exec -it $$(docker ps -f ancestor=elixir-shell -q) bash
 
 ##
 ## The following are done inside the docker container - after running
