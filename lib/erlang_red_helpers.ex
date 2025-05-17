@@ -13,4 +13,19 @@ defmodule ErlangRedHelpers do
   def markdown_to_html(content, args) do
     Earmark.as_html(content, args)
   end
+
+  @doc """
+  CSV decoder.
+  """
+  def csv_decode_as_rfc_4180(string_content) do
+    NimbleCSV.RFC4180.parse_string(string_content)
+  end
+
+  def csv_decode_as_rfc_4180(string_content, opts) do
+    NimbleCSV.RFC4180.parse_string(string_content, opts)
+  end
+
+  def define_csv_parser(module, opts) do
+    NimbleCSV.define(module, opts)
+  end
 end

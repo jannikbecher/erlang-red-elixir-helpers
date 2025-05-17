@@ -21,7 +21,8 @@ defmodule ErlangRedHelpers.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      { :earmark, "1.4.47" }
+      {:earmark, "1.4.47"},
+      {:nimble_csv, "1.2.0"}
     ]
   end
 end
