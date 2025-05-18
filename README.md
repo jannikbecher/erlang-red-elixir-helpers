@@ -1,10 +1,12 @@
 # Erlang-RED Elixir Helpers
 
-This is the place for adding Elixir code to the [Erlang-RED](https://github.com/gorenje/erlang-red)) project.
+This is the place for adding Elixir code to the [Erlang-RED](https://github.com/gorenje/erlang-red) project.
 
 This repository is included in [ErlangRED](https://github.com/gorenje/erlang-red/blob/276e116a012e52915ec9ad33962d14806689b9d1/rebar.config#L8-L10) and integrared by using the [exerl](https://github.com/filmor/exerl) rebar3 plugin [here](https://github.com/gorenje/erlang-red/blob/276e116a012e52915ec9ad33962d14806689b9d1/rebar.config#L62).
 
-Initially this Elixir project only contains [earmark](https://erlangforums.com/t/markdown-support-how-best-to-do-that/4744/2?u=gorenje).
+This repository arose out of a [discussion](https://erlangforums.com/t/markdown-support-how-best-to-do-that/4744/2?u=gorenje) of how to best support Markdown in Erlang-RED. 
+
+Many thanks to [@filmor](https://github.com/filmor) for the tip of using exerl plugin.
 
 ## Libraries contained here
 
