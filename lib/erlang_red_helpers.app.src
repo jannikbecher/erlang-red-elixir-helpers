@@ -1,0 +1,18 @@
+{application, erlang_red_helpers, [
+    {description, "Erlang Red Helpers"},
+    {vsn, "0.1.4"},
+    {registered, []},
+    {applications, [
+       kernel,
+       stdlib,
+       nimble_csv,
+       earmark,
+       erlang_red_helpers
+    ]},
+    {env, []},
+    {modules, [
+       'Elixir.ErlangRedHelpers',
+       'ErlangRedHelpers',
+       erlang_red_helpers
+    ]}
+]}.
